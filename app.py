@@ -116,7 +116,7 @@ class App(QtWidgets.QMainWindow,gui.Ui_MainWindow):
     def msgBox(self, text):
         """
 
-        :param text:
+        :param text: Message Box that shows warnings
         :return:
         """
         self.msg.setIcon(QtWidgets.QMessageBox.Warning)
